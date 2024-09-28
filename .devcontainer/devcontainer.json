@@ -1,0 +1,28 @@
+{
+  "name": "Next.js-App",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.emojisense",
+        "bierner.markdown-emoji",
+        "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "Gruntfuggly.todo-tree",
+        "mhutchie.git-graph",
+        "streetsidesoftware.code-spell-checker",
+        "vivaxy.vscode-conventional-commits",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  },
+  "postStartCommand": "yarn install && yarn start"
+}

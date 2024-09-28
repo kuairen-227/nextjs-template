@@ -1,0 +1,8 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm
+    ports:
+      - 3000:3000
+    volumes:
+      - ..:/app:cached
+    tty: true
