@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "デバッグ",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn dev",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (http?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithEdge"
+      }
+    }
+  ]
+}
