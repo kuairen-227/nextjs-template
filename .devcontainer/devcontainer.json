@@ -19,10 +19,7 @@
         "vivaxy.vscode-conventional-commits",
         "yzhang.markdown-all-in-one",
         "meganrogge.template-string-converter"
-      ],
-      "settings": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
+      ]
     }
   },
   "postStartCommand": "yarn install"
