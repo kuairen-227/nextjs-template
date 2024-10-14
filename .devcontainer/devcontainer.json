@@ -17,7 +17,8 @@
         "mhutchie.git-graph",
         "streetsidesoftware.code-spell-checker",
         "vivaxy.vscode-conventional-commits",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "meganrogge.template-string-converter"
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
