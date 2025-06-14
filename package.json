@@ -23,7 +23,7 @@
     "eslint-config-prettier": "^10.1.5",
     "postcss": "^8.5.5",
     "tailwindcss": "^4.1.10",
-    "typescript": "^5"
+    "typescript": "~5.5.0"
   },
   "engines": {
     "npm": "⚠️ npmではなくyarnを使ってください"
