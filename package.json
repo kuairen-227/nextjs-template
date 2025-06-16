@@ -15,7 +15,7 @@
     "react": "^19",
     "react-dom": "^19",
     "tailwindcss": "^4.1.10",
-    "zod": "^3.25.64"
+    "zod": "^3.25.65"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.3.3",
